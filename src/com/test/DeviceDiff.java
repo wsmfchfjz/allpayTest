@@ -11,6 +11,9 @@ import jxl.Workbook;
 
 public class DeviceDiff {
 
+	//864270036493850- allpay:53 sc:51  明细也是51  pay_20170811151359929_50682144 没有update  2017-08-11 15:14:00 2元
+	//864270035507742- allpay:18 sc:16  明细也是16  pay_20170811151351522_06242275 没有update  2017-08-11 15:13:51 2元
+	
 	public static void main(String[] args) {
 		int allpaySum = 0, scSum = 0;;
 		Map<String, String> allpay = new HashMap<>();
