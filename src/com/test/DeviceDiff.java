@@ -11,8 +11,25 @@ import jxl.Workbook;
 
 public class DeviceDiff {
 
-	//864270036493850- allpay:53 sc:51  明细也是51  pay_20170811151359929_50682144 没有update  2017-08-11 15:14:00 2元
-	//864270035507742- allpay:18 sc:16  明细也是16  pay_20170811151351522_06242275 没有update  2017-08-11 15:13:51 2元
+//	  	SET @time = '2017-09-08';
+//		SET @mac = '864270036535056';
+//		SELECT * FROM detail_acc_order_000 o LEFT JOIN sc_basic.basic_data d
+//		ON o.basicDataId = d.id WHERE deviceMac = @mac AND 
+//		o.addTime between @time AND CONCAT(@time,' 23:59:59') ;
+//
+//		SELECT * FROM stat_device_ec_000 o LEFT JOIN sc_basic.basic_data d
+//		ON o.basicDataId = d.id WHERE deviceMac = @mac AND
+//		o.statDate = @time;
+//
+//		SELECT * FROM stat_device_pay_000 o LEFT JOIN sc_basic.basic_data d
+//		ON o.basicDataId = d.id WHERE deviceMac = @mac AND
+//		o.statDate = @time;	
+		
+//	8号的差异
+//	862446035710062- allpay:274 sc:276
+//	862810033350041- allpay:42 sc:52
+//	864270036535056- allpay:60 sc:70
+//	376-398
 	
 	public static void main(String[] args) {
 		int allpaySum = 0, scSum = 0;;
