@@ -35,7 +35,7 @@ public class DeviceDiff {
 //	376-398
 	
 	public static void main(String[] args) {
-		//11111
+		//11111 reset到 111了
 		int i = 1111;
 		int allpaySum = 0, scSum = 0;;
 		Map<String, String> allpay = new HashMap<>();
