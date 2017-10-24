@@ -35,7 +35,7 @@ public class DeviceDiff {
 //	376-398
 	
 	public static void main(String[] args) {
-		//17 55 add
+		//17 56 add
 		int allpaySum = 0, scSum = 0;;
 		Map<String, String> allpay = new HashMap<>();
 		Map<String, String> sc = new HashMap<>();
